@@ -1,5 +1,5 @@
 import Peer from "https://esm.sh/simple-peer"
-import { Int64BE } from 'int64-buffer'
+import { Int64BE } from 'https://esm.sh/int64-buffer'
 
 export const CHUNK_SIZE = 1024 * 16 - 512 // 16KB - data header
 export const TX_SEND_TTL = 1000 * 30 // 30 seconds
