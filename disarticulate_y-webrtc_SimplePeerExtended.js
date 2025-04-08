@@ -1,4 +1,4 @@
-import Peer from "https://esm.sh/simple-peer"
+import Peer from "https://cdn.jsdelivr.net/npm/simple-peer/simplepeer.min.js/+esm"
 import { Int64BE } from 'https://esm.sh/int64-buffer'
 
 export const CHUNK_SIZE = 1024 * 16 - 512 // 16KB - data header
