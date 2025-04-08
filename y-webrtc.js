@@ -14,7 +14,7 @@ import * as buffer from 'https://esm.sh/lib0/buffer.js'
 import * as math from 'https://esm.sh/lib0/math.js'
 import { createMutex } from 'https://esm.sh/lib0/mutex.js'
 
-import Peer from './SimplePeerExtended.js'
+import Peer from './disarticulate_y-webrtc_SimplePeerExtended.js'
 import * as syncProtocol from './y-protocols_sync.js'
 import * as awarenessProtocol from './y-protocols_awareness.js'
 
